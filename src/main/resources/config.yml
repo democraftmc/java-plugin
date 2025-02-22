@@ -1,0 +1,36 @@
+# Quake Plugin Configuration
+
+# Game Settings
+game:
+  hoe_model_data: 12345
+  beam_range: 50
+  beam_particle: FIREWORKS_SPARK
+
+# Powerup Settings
+powerups:
+  enabled: true
+  max-active: 3
+  min-spawn-time: 30
+  max-spawn-time: 90
+  spawn-padding: 2
+  block-blacklist: [BEDROCK, BARRIER, CHEST]
+  types:
+    double_multiplier:
+      model-data: 1001
+      duration: 20
+    triple_shot:
+      model-data: 1002
+      duration: 20
+
+# Economy Settings
+economy:
+  enabled: true
+  rewards:
+    kill: 10.0
+    win: 100.0
+    second_place: 50.0
+    third_place: 25.0
+  multipliers:
+    vip: 1.5
+    premium: 2.0
+    youtuber: 3.0

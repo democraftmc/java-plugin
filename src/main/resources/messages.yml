@@ -1,0 +1,47 @@
+# Quake Plugin Messages
+
+# General Messages
+arena_join: "§aYou joined {arena} ({current}/{max})"
+game_starting: "§eGame starting in {time} seconds!"
+game_win: "§6{player} has won the game with {points} points!"
+no_permission: "§cYou don't have permission to do that!"
+arena_not_found: "§cArena not found!"
+arena_full: "§cThis arena is full!"
+arena_running: "§cThis arena is already running!"
+
+# Kill Messages
+player_kill: "§e{player} killed {victim}!"
+self_kill: "§cYou can't kill yourself!"
+kill_reward: "§a+${amount} for the kill!"
+
+# Powerup Messages
+powerup-spawn: "§aA powerup has spawned!"
+powerup-collected: "§eYou collected {powerup}!"
+powerup-double_multiplier: "§f"
+powerup-triple_shot: "§f"
+
+# Command Messages
+command_create_success: "§aArena created successfully!"
+command_setlobby_success: "§aLobby location set!"
+command_setcorner_success: "§aCorner {number} set!"
+command_addspawn_success: "§aSpawn point added!"
+command_reload_success: "§aConfiguration reloaded!"
+
+# Error Messages
+error_not_player: "§cOnly players can use this command!"
+error_invalid_args: "§cInvalid arguments!"
+error_world_not_found: "§cWorld not found!"
+error_location_invalid: "§cInvalid location!"
+error_arena_exists: "§cArena already exists!"
+
+# Help Messages
+help_header: "§6===== Quake Commands ====="
+help_create: "§e/quake create <name> §7- Create new arena"
+help_setlobby: "§e/quake setlobby <arena> §7- Set lobby location"
+help_setcorner1: "§e/quake setcorner1 <arena> §7- Set first corner"
+help_setcorner2: "§e/quake setcorner2 <arena> §7- Set second corner"
+help_addspawn: "§e/quake addspawn <arena> §7- Add spawn point"
+help_reload: "§e/quake reload §7- Reload configuration"
+help_join: "§e/quake join [arena] §7- Join an arena"
+help_leave: "§e/quake leave §7- Leave current arena"
+help_footer: "§6========================="
